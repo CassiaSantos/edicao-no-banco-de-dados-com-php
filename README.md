@@ -8,11 +8,14 @@ Esse repositório é destinado a armazenar os códigos desenvolvidos durante a d
 
 ## Estrutura do Projeto
 - `db.php`: Arquivo de configuração para conexão com o banco de dados.
-- `editar_local.php`: Página que exibe o formulário de edição com os dados do local selecionado.
-- `atualizar_local.php`: Script que processa a atualização dos dados no banco de dados.
+- `edita_local_form.php`: Página que exibe o formulário de edição com os dados do local selecionado.
+- `altera_local_db.php`: Script que processa a atualização dos dados no banco de dados.
 
 ## Pré-requisitos
 Antes de executar o projeto, certifique-se de ter:
 - PHP 7.4 ou superior
 - MySQL 5.7 ou superior
 - Servidor Web (Apache, Nginx, etc.)
+
+### Executar XAMPP no Ubuntu:
+sudo /opt/lampp/manager-linux-x64.run
