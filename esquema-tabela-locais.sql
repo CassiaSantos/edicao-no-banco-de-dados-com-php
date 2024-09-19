@@ -1,7 +1,14 @@
--- Essa é uma noção da tabela de locais do sistema de ERP:
-CREATE TABLE `Locais` (
-    `id` INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    `nome` VARCHAR(255) NOT NULL,
-    `descricao` TEXT,
-    `nomeDoResponsavelpeloLocal` VARCHAR(255) NOT NULL
-);
+CREATE TABLE IF NOT EXISTS erpl.mgt_local (
+  id INT NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(255) NULL,
+  descricao LONGTEXT NULL,
+  responsavel VARCHAR(255) NULL,
+  PRIMARY KEY (id))
+ENGINE = InnoDB
+
+INSERT INTO mgt_local (nome, descricao, responsavel)
+VALUES
+('Matriz', 'Sede principal da empresa', 'João Silva'),
+('Filial 1', 'Primeira filial no centro da cidade', 'Maria Oliveira'),
+('Filial 2', 'Segunda filial em bairro residencial', 'Carlos Almeida'),
+('Filial 3', 'Filial em área industrial', 'Ana Souza');
