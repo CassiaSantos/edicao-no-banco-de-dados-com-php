@@ -1,9 +1,10 @@
-// ARQUIVO DE CONEXÃO COM BANCO DE DADOS:
 <?php
+// ARQUIVO DE CONEXÃO COM BANCO DE DADOS:
+
 $servername = "localhost"; // Define o nome do servidor de banco de dados, geralmente "localhost".
-$username = "seu_usuario"; // Nome de usuário para acessar o banco de dados.
-$password = "sua_senha"; // Senha para acessar o banco de dados.
-$dbname = "nome_do_banco"; // Nome do banco de dados que você deseja acessar.
+$username = "root"; // Nome de usuário para acessar o banco de dados.
+$password = ""; // Senha para acessar o banco de dados.
+$dbname = "erpl"; // Nome do banco de dados que você deseja acessar.
 
 // Cria uma conexão com o banco de dados usando as credenciais fornecidas.
 $conn = new mysqli($servername, $username, $password, $dbname);
