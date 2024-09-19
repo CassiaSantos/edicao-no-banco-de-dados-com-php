@@ -2,8 +2,7 @@
 Esse repositório é destinado a armazenar os códigos desenvolvidos durante a disciplina de Programação para WEB para a funcionalidade de "Alterar Locais" em de um sistema de ERP para empresas. A funcionalidade permite que os usuários editem dados de locais cadastrados, como Matriz, Filial 1, Filial 2, etc.
 
 ## Funcionalidades
-- Listar todos os locais cadastrados no sistema.
-- Editar os detalhes de um local específico.
+- Editar os detalhes de um local específico(id passado na URL).
 - Atualizar o banco de dados com as novas informações fornecidas pelo usuário.
 
 ## Estrutura do Projeto
